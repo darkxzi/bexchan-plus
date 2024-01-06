@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/3ca0a9bad6.js" crossorigin="anonymous"></script>
+
+  <title>HTML</title>
+<body>
+  <style>
+    top {
+      
+    }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    .small-btn {
+      padding: 3px;
+      
+    }
+    h2 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      color: black;
+    }
+    body {
+      background: #37351C;
+    }
+    a {
+            font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
+</body>
+<div class="top">
+  <a href="index.html" style="padding-right: 6px;"><i class="fa-solid fa-house" style="margin-left: 5px; margin-right: 5px;"></i>HOME</a>| <a href="transaction.html">RECENT TRANSACTIONS</a> | <i class="fa-solid fa-bars" onclick="myDisplay()" style="font-size: 20px; padding-left: 6px;"></i>
+  <br />
+  </div>
+  <h2 style="color: white; font-size: 19px;">Verified <i class="fa-solid fa-circle-check" style="color: #53A2F5; font-size: 16px;"></i></h2>
+  <br />
+      <button style="width: 25%; background: #CEEF00; padding: 10px; border-radius: 20px; color: black; border: 1px solid #CEEF00; font-weight: bold; font-size: 14px;" onclick="myAlert()">More?</button>
+
+    </div>
+<center>
+    <div class="btn">
+      <button style="width: 87%; background: #CEEF00; padding: 16px; margin-top: 84%; border-radius: 35px; text-decoration: underline; font-size: 15px; font-weight: bold; color: black; border: 1px solid #CEEF00;" onclick="next()">START FIRST WITHDRAWAL <i class="fa-solid fa-circle-arrow-right" style="font-size: 20px; padding-left: 5px;"></i></button>
+</html>
+<script>
+function next() {
+  window.location = "next.html";
+}
+
+function myAlert() {
+  alert('This Application is verified choose the option below to get started to withdraw immediately!');
+}
+
+function myDisplay() {
+  alert('Note:This is currently the Latest version of Bexchange Plus! Payment is auto-detected for easy activation of your withdrawals.');
+}
+</script>

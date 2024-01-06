@@ -1,0 +1,54 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="https://kit.fontawesome.com/3ca0a9bad6.js" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+      <style>
+      body {
+        background: #37351C;
+      }
+      a {
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+      text-decoration: none;
+
+      }
+      .loader {
+  border: 11px solid #605C49;
+  border-top: 11px solid #FFFFFF;
+  border-radius: 50%;
+  width: 98px;
+  height: 98px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+      </style>
+<body>
+  <script>
+    function myAlert {
+      alert('Processing Withdrawal…')
+    }
+  </script>
+      <a href="index.html" style="padding-right: 6px;"><i class="fa-solid fa-house" style="margin-left: 5px; margin-right: 5px;"></i>HOME</a>| <a href="transaction.html">RECENT TRANSACTIONS</a> | <i class="fa-solid fa-bars" onclick="myAlert()" style="font-size: 20px;"></i>
+  <br />
+  <br />
+  <center>
+    <br />
+    <br />
+    <br />
+    <div class="loader"></div>
+
+</html>
+      <script>
+        setTimeout(function() {
+          window.location.href = "path.html";
+        }, 25000);
+
+              </script>
+</html>

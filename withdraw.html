@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script src="https://kit.fontawesome.com/3ca0a9bad6.js" crossorigin="anonymous"></script>
+
+    <title></title>
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+body {
+background: #37351C;
+color: white;
+}
+h1 {
+  font-size: 19px;
+}
+button {
+  width: 53%;
+  background: #ECD347;
+  padding: 14px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid white;
+}
+input {
+  width: 72%;
+  padding: 6px;
+  font-size: 13px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px #DDDDDD;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+</style>
+<body>
+  <form action="pending.html">
+<a href="index.html" style="padding-right: 6px;         font-family: 'Courier New', Courier, monospace;
+"><i class="fa-solid fa-house" style="margin-left: 5px; margin-right: 5px;"></i>HOME</a>| <a href="transaction.html" style="        font-family: 'Courier New', Courier, monospace;
+">RECENT TRANSACTIONS</a> | <i class="fa-solid fa-bars" onclick="myAlert()" style="font-size: 20px; padding-left: 6px; color: black;"></i>
+<h2 style="font-size: 15px; padding-left: 6px; font-weight: bold;"><i class="fa-solid fa-triangle-exclamation"></i> Make sure your withdrawal amount is below $1500.</h2>
+<center>
+<h1 style="font-size: 21px;">Withdrawal <i class="fa-solid fa-coins"></i></h1>
+<i class="fa-solid fa-paperclip"></i><input type="text" placeholder="Wallet Address" value="bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23">
+<br />
+<br />
+<i class="fa-solid fa-wallet"></i><select name="select" id="select" style="background: #DDDDDD; width: 72%;
+  padding: 6px;
+  font-size: 13px; border: 1px solid #DDDDDD; height: 26px;
+  border-radius: 5px; color: black;   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;">
+  <option>Trust Wallet</option>
+  <option>Binance</option>
+</select>
+  <br>
+  <h1 style="font-size: 1x;">To Bank <i class="fa-solid fa-building-columns"></i></h1>
+ <i class="fa-solid fa-building-columns"></i> <input type="tel" placeholder="Bank Account Number" required="">
+  <br />
+  <br />
+  <i class="fa-solid fa-building-columns"></i><input type="text" placeholder="Bank Account Name" required="">
+  <br />
+  <br />
+  <i class="fa-solid fa-phone-volume"></i><input type="number" placeholder="Phone Number" required="">
+  <br />
+  <br />
+<i class="fa-solid fa-money-bills"></i>  <input type="tel" id="amount" name="amount" placeholder="Amount to withdraw" required="">
+  <br />
+  <br />
+    <i class="fa-solid fa-envelopes-bulk"></i><input type="email" placeholder="Email address" required="">
+<br />
+<br />
+   <i class="fa-solid fa-building-columns"></i><select style="background: #DDDDDD; width: 72%;
+  padding: 6px;
+  font-size: 13px; height: 26px;
+  border-radius: 5px; color: black;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;" required="">
+                <option required="">-Select Bank-</option>
+                <option required="">Absa SA</option>
+                <option>Access Bank</option>
+                n Bank Limited</option>
+<option>Aso Saving And Bank</option>
+<option>Access Bank Plc</option>
+<option>AssetMatrix MFB</option>
+<option>Capitec Bank</option>
+<option>Citibank</option>
+<option>Chase Bank</option>
+<option>Diamond Bank</option>
+<option>Ecobank Plc</option>
+<option>Enterprise Bank</option>
+<option>Eyowo MFB</option>
+<option>Fidelity Bank</option>
+<option>First Bank Of Nigeria</option>
+<option>First City Monument Bank</option>
+<option>GTBank</option>
+<option>Heritage Bank</option>
+<option>Keystone Bank</option>
+<option>Kuda MFB</option>
+<option>MOMO</option>
+<option>MONIEPOINT</option>
+<option>Opay (PAYCOM)</option>
+<option>PalmPay</option>
+<option>Polaris Bank</option>
+<option>Providus Bank</option>
+<option>Rubies MFB</option>
+<option>Stanbic IBTC Bank</option>
+<option>Sterling Bank</option>
+<option>United Bank For Africa</option>
+<option>Wema Bank</option>
+<option>Zenith Bank PLC</option>
+            </select>
+<br />
+<br />
+<button onclick="passvalue();">Proceed Withdrawal <i class="fa-solid fa-arrow-right"></i></button>
+<br />
+<br />
+<br />
+<br />
+<a href="crypto.html" style="text-decoration: underline;">Want to withdraw to Crypto Wallet? click here!</a>
+</form>
+</body>
+
+</html>
+<script>
+  function myAlert() {
+  alert('Fill your details below to proceed with your withdrawal.');
+
+</script>

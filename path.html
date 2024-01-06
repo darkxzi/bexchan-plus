@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+              <script src="https://kit.fontawesome.com/3ca0a9bad6.js" crossorigin="anonymous"></script>
+
+    <title></title>
+</head>
+<style>
+  a {
+      color: black;
+      font-family: 'Courier New', Courier, monospace;
+      text-decoration: none;
+}
+body {
+  background: #37351C;
+}
+button {
+  width: 55%;
+  padding: 13px;
+  font-size: 16px;
+  background: #ECD347;
+  border: 1px solid #DDDDDD;
+  border-radius: 16px;
+  color: black;
+}
+button:hover {
+  background: red;
+  border: 1px solid #ECD347;
+  color: white;
+}
+</style>
+<body>
+  <form action="pay.html">
+    <a href="index.html" style="padding-right: 4px;"><i class="fa-solid fa-house" style="margin-left: 5px; margin-right: 5px;"></i>HOME</a> | <a href="transaction.html">RECENT TRANSACTIONS</a> | <i class="fa-solid fa-bars" onclick="myAlert()" style="font-size: 20px; padding-left: 6px;"></i>
+  <br />
+  <br />
+  <br />
+  <center>
+  <i class="fa-solid fa-circle-exclamation" style="font-size: 65px; color: red;"></i>
+  <br />
+  <br />
+  <b style="color: white;">You have a pending withdrawal
+  <br />For a successful withdrawal you are to purchase the Bexchange Plus <span style="color: green;">OPEN ID</span>, to get your API installed on this device for your app to work, <br /><br /> <span style="color: green;">OPEN ID Cost ₦7,000.00</span></b>
+  <br />
+  <br />
+  <button>Purchase OPEN ID <i class="fa-solid fa-arrow-right"></i></button>
+</center>
+  </form>
+</body>
+
+</html>
+<script>
+  function myAlert() {
+    alert('Note:Without an OPEN ID, Transaction cannot be made, OPEN ID cost ₦7,000.00');
+  }
+</script>
